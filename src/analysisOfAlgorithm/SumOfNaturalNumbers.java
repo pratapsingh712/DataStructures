@@ -12,5 +12,15 @@ public class SumOfNaturalNumbers {
 
         System.out.println("Sum of first "+n+" natural number is = "+sum);
 
+        // the second solution can be using for loop
+
+        int sumSlow = 0;
+
+        for(int i=1;i<=n;i++){
+            sumSlow = sumSlow + i;
+        }
+
+        System.out.println("Sum of first "+n+" natural number is = "+sumSlow);
+
     }
 }
